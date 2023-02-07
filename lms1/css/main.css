@@ -1,0 +1,50 @@
+.nav-link, .navbarTitle{
+    color: white;
+}
+.navbarTitle{
+    border: 6px;
+    border-color: white;
+    margin-top: 5px;
+}
+.header {
+    grid-area: head;
+}
+.aside {
+    grid-area: aside;
+}
+.body {
+    grid-area: body;
+}
+.footer {
+    grid-area: footer;
+}
+body {
+    display: grid;
+    grid-template-areas: "head head head head"
+                         "aside body body body"
+                         "footer footer footer footer";
+}
+.tournaments{
+    text-align: left;
+}
+.title, .teams{
+    color: white;
+}
+.home, .teams, .aside{
+    padding-top: 90px;
+}
+.home-welcome, .home-rules{
+    text-align: justify;
+    padding: 10px 10px;
+}
+#teams{
+    color: black;
+}
+.bg-img {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
+  .footer{
+    margin: auto;
+  }
